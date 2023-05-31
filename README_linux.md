@@ -21,7 +21,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
 
    ```cd TCR2Rep```
 
-8. Create the **environment for TCR2Rep** in "Anaconda Prompt" by typing:	
+6. Create the **environment for TCR2Rep** in "Anaconda Prompt" by typing:	
 
    ```conda env create -f TCR2Rep.yml ```
 
@@ -37,7 +37,7 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
 
     ```conda install -c derkevinriehl seqkit```
 
-9. download and **install IGBlast** for linux from here: 
+8. download and **install IGBlast** for linux from here: 
 
    https://ncbi.github.io/igblast/cook/How-to-set-up.html
 
@@ -47,9 +47,9 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
 
    (you can find "TCR2Rep" path by typing: "pwd").
    
-10. Move "database" folder from "TCR2Rep" folder to  "igblast-1.21.0" folder.
+9. Move "database" folder from "TCR2Rep" folder to  "igblast-1.21.0" folder.
 
-11. It is recommended to update the database once in a while - Update **Imgt database**: 
+10. It is recommended to update the database once in a while - Update **Imgt database**: 
     
     (You can get a more extensive explanation here - https://www.imgt.org/vquest/refseqh.html#VQUEST.)
      
