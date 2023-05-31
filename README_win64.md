@@ -52,10 +52,14 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
    Move "igblast-1.21.0 " folder into "TCR2Rep" folder.
 
    (you can find "TCR2Rep" path by typing: "pwd" in "Anaconda Prompt").
+   
+10. Move "database" folder from "TCR2Rep" folder to  "igblast-1.21.0" folder.
 
-10. Download **Imgt database**: (You can get a more extensive explanation here - https://www.imgt.org/vquest/refseqh.html#VQUEST.)
+11. It is recommended to update the database once in a while - Update **Imgt database**: 
+    
+    (You can get a more extensive explanation here - https://www.imgt.org/vquest/refseqh.html#VQUEST.)
      
-     a.	At "igblast-1.21.0 " folder create new folder with the name – "database" by typing:
+     a.	At "igblast-1.21.0 " change the name of "database" folder to "database_old" and  create new folder with the name – "database" by typing: 
       
       ```mkdir database```
       
