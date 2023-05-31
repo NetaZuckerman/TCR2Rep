@@ -39,6 +39,13 @@ First, Operate TCR2Rep pip enviroment by typing:
 
 ```bash "TCR2Rep_pipeline_win64.bash" AL11_S1_L001_R1_001.fastq AL11 240 25 ~\TCR2Rep\ <your/igblastn_direcrory/path>\bin\igblastn.exe <your/igblastn_direcrory/path> <your/tcR2Rep_pipeline_folder/path>```
 
-## **perform Clones Tracking Analysis 
-![image](https://github.com/NetaZuckerman/TCR2Rep/assets/83898714/ac4f08f0-c124-4311-8073-dc12a34253f7)
-**
+## **Clones Tracking Analysis**
+This analysis allow you track clone size of overlap clones between 4 samples or between T-care treatment and 4 samples.
+1. Run this 3 commands:
+* Tracking_overlapping_clones_percent.R treatment_after_annotation.tsv sample1_after_annotation.tsv sample2_after_annotation.tsv sample3_after_annotation.tsv sample4_after_annotation.tsv
+![image](https://github.com/NetaZuckerman/TCR2Rep/assets/83898714/6589899c-42d2-4426-ab98-cc52081e4dae)
+
+*
+*
+
+
