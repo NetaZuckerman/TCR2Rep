@@ -1,0 +1,19 @@
+name: TCR2Rep
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - defaults
+dependencies:
+  - requests
+  - biopython 
+  - r-tidyverse
+  - r-data.table
+  - r-writexl
+  - r-dplyr
+  - r-ggplot2
+  - r-readxl
+  - r-plyr
+  - r-stringr
+  - r-igraph
+  - r-openxlsx
