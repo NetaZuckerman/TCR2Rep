@@ -38,3 +38,7 @@ First, Operate TCR2Rep pip enviroment by typing:
 **Run Example:**
 
 ```bash "TCR2Rep_pipeline_win64.bash" AL11_S1_L001_R1_001.fastq AL11 240 25 ~\TCR2Rep\ <your/igblastn_direcrory/path>\bin\igblastn.exe <your/igblastn_direcrory/path> <your/tcR2Rep_pipeline_folder/path>```
+
+## **perform Clones Tracking Analysis 
+![image](https://github.com/NetaZuckerman/TCR2Rep/assets/83898714/ac4f08f0-c124-4311-8073-dc12a34253f7)
+**
