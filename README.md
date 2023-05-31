@@ -46,27 +46,34 @@ First, Run this commands to get a clones tracking tables:
 ```cd <your/Clones_Tracking_Scripts_folder/path>```
 
 1. All clones tracking - in all samples and T CARE treatment.
+
 Inputs: XXX_after_annotation.tsv files of the treatment and all the samples.
+
 * ```Tracking_overlapping_clones_percent.R treatment_after_annotation.tsv sample1_after_annotation.tsv sample2_after_annotation.tsv sample3_after_annotation.tsv sample4_after_annotation.tsv```
 
 2. All clones tracking – just in samples.
+ 
  Inputs: XXX_after_annotation.tsv files of all the samples.
+
 * ```Tracking_overlapping_clones_percent.R treatment_after_annotation.tsv sample1_after_annotation.tsv sample2_after_annotation.tsv sample3_after_annotation.tsv sample4_after_annotation.tsv ```
 
 3. Just common clones tracking - in all samples and T CARE treatment.
- Inputs: XXX_after_annotation.tsv files of the treatment and all the samples.
+
+Inputs: XXX_after_annotation.tsv files of the treatment and all the samples.
+
 * ```Tracking_overlapping_clones_percent.R treatment_after_annotation.tsv sample1_after_annotation.tsv sample2_after_annotation.tsv sample3_after_annotation.tsv sample4_after_annotation.tsv ```
 
 Next, Run this commands to create Clones Tracking graphs:
 
 1.All clones tracking - in all samples and T CARE treatment.
+
 Inputs: The outputs files from the previous step [all the excel tables].
+
 * ```Clones_tracking_graph.R XXX_ALL_Clones_Tracking.xlsx XXX_Just_Samples_Clones_Tracking.xlsx XXX_Common_Clones_Tracking.xlsx```
 
 2.All clones tracking – just in samples. [for better visualization]
 
 Inputs: The outputs files from the previous step [all the excel tables].
 
-* ```Clones_tracking_graph[just_samples].R XXX_ALL_Clones_Tracking.xlsx XXX_Just_Samples_Clones_Tracking.xlsx XXX_Common_Clones_Tracking.xlsx
-```
+* ```Clones_tracking_graph[just_samples].R XXX_ALL_Clones_Tracking.xlsx XXX_Just_Samples_Clones_Tracking.xlsx XXX_Common_Clones_Tracking.xlsx```
 
