@@ -91,7 +91,7 @@ Operate TCR2Rep pip enviroment:
 |1 |<fastq_file_path>|A file that contains all TCR sequences|
 |2 |<sample_name>|A unique sample name of your choice to be added to the output files|
 |3 |<length_threshold>|Select a minimum length threshold for filtering [Usually - 240]|
-|4 |<quality_threshold>|Select a minimum quality threshold for filtering [Usually - 240]|
+|4 |<quality_threshold>|Select a minimum quality threshold for filtering [acceptable range: 20 - 25]|
 |5 |<output_path>|Choose directory path for the output files|
 |6 |<igblastn_path>|igblastn path (Usually found in "bin" folder of igblast program|
 |7 |<igblast_directory_path>|igblast directory path|
