@@ -42,9 +42,7 @@ First, Operate TCR2Rep pip enviroment by typing:
 ## **Clones Tracking Analysis**
 This analysis allow you track clone size of overlap clones between 4 samples or between T-care treatment and 4 samples.
 1. Run this 3 commands:
-* Tracking_overlapping_clones_percent.R treatment_after_annotation.tsv sample1_after_annotation.tsv sample2_after_annotation.tsv sample3_after_annotation.tsv sample4_after_annotation.tsv
-![image](https://github.com/NetaZuckerman/TCR2Rep/assets/83898714/6589899c-42d2-4426-ab98-cc52081e4dae)
-
+* ```Tracking_overlapping_clones_percent.R treatment_after_annotation.tsv sample1_after_annotation.tsv sample2_after_annotation.tsv sample3_after_annotation.tsv sample4_after_annotation.tsv ```
 *
 *
 
