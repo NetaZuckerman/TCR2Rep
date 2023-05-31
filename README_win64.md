@@ -16,9 +16,9 @@ The pipeline also performs bioinformatic analyses, such as: clonal size distribu
 
 4. From "Anaconda Prompt" **download TCR2Rep pipeline** scripts by typing: 
 
-   ```git clone https://github.com/morhavap/TCR2Rep_win64.git```
+   ```git clone https://github.com/NetaZuckerman/TCR2Rep.git```
 
-5. Get into "TCR2Rep_win64" folder: ```cd TCR2Rep_win64```
+5. Get into "TCR2Rep" folder: ```cd TCR2Rep```
 6. Create the **environment for TCR2Rep** in "Anaconda Prompt" by typing:	
 
    ```conda env create -f TCR2Rep.yml ```
